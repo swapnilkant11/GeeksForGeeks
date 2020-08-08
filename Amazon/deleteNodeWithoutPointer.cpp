@@ -15,7 +15,7 @@ void deleteNode(struct node* node){
     return;
   else{
     // if the next node of the current node is NULL return, because we are taking that the given node will not be the last node.
-    if(node->nect == NULL)
+    if(node->next == NULL)
        return;
     // copy the reference of next node to a temporary node.
     struct node *temp = node->next;
